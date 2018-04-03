@@ -1,5 +1,5 @@
 /**
- * Implement atoi to convert a string to an integer.
+ * Implement atoi to solution a string to an integer.
 
  Hint: Carefully consider all possible input cases. If you want a challenge, please do not see below and ask yourself what are the possible input cases.
 
@@ -20,7 +20,7 @@
  */
 public class String2Integer {
 
-    public int convert(String str) {
+    public int solution(String str) {
         int index = 0, sign = 1, total = 0;
 
         if (str == null || str.length() == 0) {
